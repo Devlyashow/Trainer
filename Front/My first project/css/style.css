@@ -1,0 +1,931 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&family=Lobster&family=Roboto&family=Roboto+Slab&family=Ruslan+Display&display=swap');
+@import url('http://fonts.cdnfonts.com/css/billabong');
+
+
+
+body {
+    background: url(../img/meta.jpeg);
+    /* background: rgb(8, 0, 33); */
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    margin: 0%;
+    min-width: 600px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.shapka {
+    max-width: 1900px;
+    margin: auto;
+}
+
+.box {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+
+}
+
+.opit {
+    font-family: 'Lobster', sans-serif;
+    font-size: 17px;
+    margin: 0%;
+}
+
+.social {
+    margin-top: 20px;
+    border-radius: 10px;
+    background: url(../img/pod\ tekst.jpeg);
+    /* background: rgba(245, 245, 245, 0.46); */
+    padding: 10px;
+    padding-bottom: 0;
+    display: inline-block;
+    box-shadow: 2px 2px 10px grey;
+
+}
+
+.card {
+    background: url(../img/pod\ tekst.jpeg);
+    color: black;
+    width: min-content;
+    text-align: center;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.card2 {
+    background: url(../img/pod\ tekst.jpeg);
+    color: black;
+    width: min-content;
+    text-align: center;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.left {
+    width: max-content;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.right {
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.ava_up {
+    /* width: 30%;
+    height: 30%; */
+    width: 0;
+    height: 0;
+}
+
+.ava {
+    top: 0;
+    border-radius: 20px;
+    position: absolute;
+    width: auto;
+    height: 120%;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 2px 2px 10px grey;
+}
+
+
+
+.proba {
+    text-align: center;
+    margin-right: 10px;
+}
+
+
+
+a.instagram {
+    margin-top: 5px;
+    margin-left: 10px;
+    padding-bottom: 0;
+}
+
+a.telegram {
+    text-align: center;
+    margin: auto;
+    margin-right: 10px;
+}
+
+
+
+.intro {
+    margin-top: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 20px rgb(99, 99, 99);
+}
+
+.varianti {
+    display: flex;
+    margin: auto;
+    font-family: 'Kurale', serif;
+    font-size: 25px;
+    /* max-width: 1800px; */
+    justify-content: space-around;
+
+}
+
+.varik {
+    border: 1px solid white;
+    height: 250px;
+    max-width: 500px;
+    flex: auto;
+    position: relative;
+
+}
+
+.variant1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.variant1-click {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.zamena {
+    display: none;
+}
+
+.zamena2 {
+    display: none;
+}
+
+.zamena3 {
+    display: none;
+}
+
+.varik:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 10px grey;
+    opacity: 80%;
+    transition: box-shadow .2s, opacity .2s;
+}
+
+/* .variant1-click:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 10px grey;
+    opacity: 80%;
+    transition: box-shadow .2s, opacity .2s;
+} */
+
+.variant2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+.variant2-click {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.variant3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.variant3-click {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    height: 700px;
+    /* border: 1px solid greenyellow; */
+    width: 90%;
+    margin: 50px auto;
+    margin-bottom: 50px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.intro2_up {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: 20%;
+    text-shadow: 2px 2px 20px rgb(99, 99, 99);
+    /* border: 1px solid white; */
+}
+
+
+.intro2 {
+    color: rgb(0, 0, 0);
+    background: url(../img/pod\ tekst.jpeg);
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Ruslan Display', cursive;
+    text-shadow: 2px 2px 10px white;
+    /* width: fit-content; */
+}
+
+
+.info {
+    width: 25%;
+    height: 33%;
+    /* border: 1px solid white; */
+    position: absolute;
+    font-family: 'Ruslan Display', cursive;
+}
+
+.info1 {
+    top: 10%;
+    left: 10%;
+}
+
+.hudei {
+    object-position: right bottom;
+    object-fit: contain;
+    width: 90%;
+    height: 90%;
+}
+
+
+.info2 {
+    margin: auto;
+    bottom: 10%;
+    left: 10%;
+
+}
+
+.sila {
+    object-position: right top;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+
+}
+
+.info3 {
+    right: 0;
+    bottom: 10%;
+    right: 10%;
+}
+
+.vinoslivost {
+    object-position: left top;
+    object-fit: contain;
+    width: 90%;
+    height: 90%;
+}
+
+.info4 {
+    top: 10%;
+    right: 10%;
+}
+
+.functional {
+    object-position: left bottom;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.info5 {
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.gibkost {
+    object-position: top;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.info6 {
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.kachek {
+    object-position: bottom;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+a:hover {
+    mix-blend-mode: multiply;
+}
+
+/* .slider__item_img {
+    width: 33%;
+    min-width: 700px;
+} */
+
+/* Слайдер */
+.slick-slider {}
+
+/* Слайдер запущен */
+.slick-slider.slick-initialized {}
+
+/* Слайдер с точками */
+.slick-slider.slick-dotted {}
+
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden
+}
+
+/* Лента слайдов */
+.slick-track {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+
+}
+
+/* Слайд */
+.slick-slide {}
+
+/* Слайд активный (показывается) */
+.slick-slide.slick-active {}
+
+/* Слайд основной */
+.slick-slide.slick-current {}
+
+/* Слайд по центру */
+.slick-slide.slick-center {}
+
+/* Клонированный слайд */
+.slick-slide.slick-cloned {}
+
+/* Стрелка */
+.slick-arrow {}
+
+/* Стрелка влево */
+.slick-arrow.slick-prev {}
+
+/* Стрелка вправо */
+.slick-arrow.slick-next {}
+
+/* Стрелка не активная */
+.slick-arrow.slick-disabled {}
+
+/* Точки (булиты) */
+.slick-dots {}
+
+.slick-dots li {}
+
+/* Активная точка */
+.slick-dots li.slick-active {}
+
+/* Элемент точки */
+.slick-dots li button {}
+
+/* Стилизация стрелочек */
+.slider {
+    position: relative;
+    margin-top: 50px;
+}
+
+.slider .slider__item {
+    text-align: center;
+}
+
+.slider .slick-track {}
+
+.slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    font-size: 0;
+    z-index: 10;
+    width: 32px;
+    height: 60px;
+    /* Чтоб по центру поставить, надо половину высоты (30 от 60-ти) - прописать в margin */
+    margin: -30px 0 0 0;
+}
+
+
+.slider__item_img {
+    width: 50%;
+    /* min-width: 600px; */
+    max-height: min-content;
+}
+
+.slider .slick-arrow.slick-prev {
+    left: 0%;
+    background: url('../img/Strelka-levo.png') 0 0 no-repeat;
+    background-size: contain;
+    border: 0ch;
+    z-index: 10;
+}
+
+.slider .slick-arrow.slick-next {
+    right: 0%;
+    background: url('../img/Strelka-pravo.png') 0 0 no-repeat;
+    background-size: contain;
+    border: 0ch;
+    z-index: 1000;
+}
+
+.slider .slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.slider .slick-dots li {
+    list-style: none;
+}
+
+.slider .slick-dots li.slick-active button {
+    background: transparent;
+    border: 1px solid white;
+
+}
+
+.slider .slick-dots button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 10px;
+    border: 0ch;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.slider .slider__item .slick-active {}
+
+
+
+footer {
+    width: 100%;
+    height: min-content;
+    background: url(../img/footer.jpeg);
+    min-width: 600px;
+    padding: 10px;
+}
+
+.footer__contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__div {
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+.footer__tel {
+    width: 100%
+}
+
+a.footer__tel_link:hover {
+    mix-blend-mode: normal;
+}
+
+a.footer__telegram_link:hover {
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    transition: 0.2s;
+}
+
+.footer__telegram {
+    width: 65%;
+}
+
+.footer__item {
+    margin-left: 10%;
+}
+
+
+@media (max-width:1000px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        transform: none;
+        padding-top: 80px;
+        margin: auto;
+        height: auto;
+        width: auto;
+        justify-content: center;
+    }
+
+    .info {
+        position: static;
+        transform: none;
+        object-position: center;
+        margin: 0%;
+        width: 274px;
+        height: 229px;
+
+    }
+
+    img.mix {
+        object-position: center;
+    }
+
+    .intro2_up {
+        bottom: 83%;
+    }
+
+    .info1 {
+        order: 3;
+    }
+
+
+}
+
+
+@media (max-width:1250px) {
+
+
+    .slider .slick-arrow {
+        width: 16px;
+        height: 30px;
+    }
+
+    .box {
+        display: block;
+        text-align: center;
+    }
+
+    .card {
+        margin: auto;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .left {
+        padding: 0;
+        margin: 10px;
+    }
+
+    .card2 {
+        margin: auto;
+        width: max-content;
+    }
+
+    .ava {
+        position: static;
+        width: 300px;
+        margin: auto;
+        height: auto;
+        left: auto;
+        transform: none;
+        margin-bottom: 20px;
+
+    }
+
+    .social {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 200px;
+        background: none;
+        box-shadow: none;
+        width: max-content
+    }
+
+    .tgimg {
+        margin-right: 400px;
+        background: url(../img/pod\ tekst.jpeg);
+        box-shadow: 2px 2px 10px grey;
+        padding: 5px;
+        border-radius: 10px;
+        width: 80px;
+    }
+
+    .instimg {
+        background: url(../img/pod\ tekst.jpeg);
+        box-shadow: 2px 2px 10px grey;
+        padding: 5px;
+        border-radius: 10px;
+        width: 80px;
+    }
+
+    .opit {
+        margin-bottom: 10px;
+    }
+
+
+    .varianti {
+        display: block;
+    }
+
+    .varik {
+        margin: auto;
+        width: 500px;
+
+    }
+
+    .intro {
+        font-size: 2em;
+    }
+
+    .intro2 {
+        font-size: 1.7em;
+        width: max-content;
+    }
+
+    .intro2_up {
+        top: auto;
+        left: auto;
+        transform: none;
+        right: 50%;
+        transform: translate(50%);
+        width: max-content;
+    }
+
+    .info6 {
+        top: 15%
+    }
+
+    .info1 {
+        top: 15%;
+    }
+
+    .info4 {
+        top: 15%
+    }
+
+    .info5 {
+        top: 57%
+    }
+
+    .container {
+        margin-top: 20px;
+        width: 100%
+    }
+
+    .footer__item {
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 1900px) {
+    .body {
+        padding-top: 20px;
+    }
+
+    .shapka {
+        max-width: 2500px;
+        margin: auto;
+        justify-content: space-around;
+    }
+
+    .box {
+        justify-content: space-between;
+        max-width: 2500px;
+        margin: 20px auto;
+        align-items: center;
+        height: 400px;
+
+    }
+
+    .card {
+        align-items: center;
+        font-size: 30px;
+        width: max-content;
+        margin-left: 20px;
+        justify-content: space-around;
+    }
+
+    .card2 {
+        background: url(../img/pod\ tekst.jpeg);
+        color: black;
+        width: max-content;
+        margin-right: 2%;
+        text-align: center;
+        padding: 10px;
+        padding-top: 0px;
+        padding-bottom: 2px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px grey;
+        font-size: 20px;
+    }
+
+    .opit {
+        font-size: 30px;
+    }
+
+    .left {
+        padding: 0;
+        width: max-contents;
+        margin: auto;
+        padding: 15px;
+        font-size: 40px;
+        align-items: center;
+    }
+
+    .social {
+        display: inline;
+        margin-left: 20px;
+        margin-top: auto;
+
+    }
+
+    .tgimg {
+        width: 80px;
+    }
+
+    .instimg {
+        width: 80px;
+    }
+
+
+    .proba {
+        width: 45%;
+        display: flex;
+        align-items: center;
+    }
+
+    .ava {
+        height: 100%;
+    }
+
+
+
+    .intro {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .varianti {
+        margin-top: 50px;
+        height: 300px;
+        justify-content: space-around;
+    }
+
+    .varik {
+        height: 100%;
+        width: 100%;
+    }
+
+    .intro2 {
+        font-size: 35px;
+    }
+
+    .container {
+        height: 1000px;
+        margin-top: 100px;
+    }
+
+    .vinoslivost {
+        width: 100%;
+        height: 100%;
+    }
+
+    .hudei {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer__item {
+        font-size: 40px;
+    }
+
+    @media (min-width: 2000px) {
+        .intro {
+            font-size: 60px;
+        }
+
+        .varianti {
+            margin-top: 50px;
+            height: 400px;
+            justify-content: space-around;
+
+        }
+
+        .varik {
+            height: 100%;
+            max-width: 700px;
+        }
+
+        .footer__item {
+            font-size: 50px;
+        }
+
+    }
+
+    @media (min-width: 2600px) {
+        .slider .slick-dots button {
+            width: 20px;
+            height: 20px;
+        }
+
+        .card2 {
+            background-size: 200%;
+            font-size: 30px;
+            padding: 20px;
+            padding-bottom: 10px;
+            margin: 0%;
+        }
+
+        .card {
+            background-size: 200%;
+        }
+
+        .right {
+            margin: 0%;
+        }
+
+        .intro2 {
+            font-size: 45px;
+        }
+
+        .social {
+            margin: auto;
+            margin-left: 50px;
+            background-size: 100%;
+        }
+
+        .tgimg {
+            width: 100px;
+        }
+
+        .instimg {
+            width: 100px;
+        }
+
+        .proba {
+            align-items: center;
+        }
+
+        .left {
+            font-size: 70px;
+        }
+
+        .intro2 {
+            font-size: 40px;
+        }
+
+        .container {
+            height: 1300px;
+        }
+
+        .footer__item {
+            font-size: 60px;
+        }
+
+    }
+
+    @media (min-width: 3100px) {
+        .intro2 {
+            font-size: 50px;
+        }
+
+        .container {
+            height: 1500px;
+        }
+
+        .footer__item {
+            font-size: 80px;
+        }
+    }
+
+    @media (min-width: 3500px) {
+        .intro2 {
+            font-size: 50px;
+        }
+
+        .container {
+            height: 1700px;
+        }
+
+        .intro2 {
+            font-size: 70px;
+        }
+    }
