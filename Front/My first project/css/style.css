@@ -9,7 +9,7 @@ body {
     color: white;
     font-family: 'Roboto Slab', serif;
     margin: 0%;
-    min-width: 650px;
+    min-width: 700px;
 }
 
 *,
@@ -571,7 +571,7 @@ a.footer__telegram_link:hover {
 @media (max-width:1250px) {
     
     .slider__item_img {
-    width: 70%;
+    width: 80%;
 }
 
 .slider .slick-arrow {
