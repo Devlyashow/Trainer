@@ -571,10 +571,10 @@ a.footer__telegram_link:hover {
 @media (max-width:1250px) {
 
 
-    .slider .slick-arrow {
+/*     .slider .slick-arrow {
         width: 16px;
         height: 30px;
-    }
+    } */
 
     .box {
         display: block;
