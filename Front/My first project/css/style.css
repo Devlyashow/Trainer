@@ -9,7 +9,7 @@ body {
     color: white;
     font-family: 'Roboto Slab', serif;
     margin: 0% ;
-    min-width: 450px;
+    min-width: 650px;
   
 }
 
@@ -698,7 +698,7 @@ a.footer__telegram_link:hover {
     }
 }
 
-    @media (max-width:600px) {
+/*     @media (max-width:600px) {
     .box {
         position: static;
     }
@@ -752,6 +752,7 @@ a.footer__telegram_link:hover {
     .footer__div_item {
         width: min-content;
         display: inline-block
+        
     }
 
     .footer__tel {
@@ -822,7 +823,7 @@ a.footer__telegram_link:hover {
     .container {
         margin-top: 80px;
     }
-}
+} */
 
 @media (min-width: 1900px) {
     .body {
