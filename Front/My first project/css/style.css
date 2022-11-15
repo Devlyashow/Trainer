@@ -775,7 +775,7 @@ a.footer__telegram_link:hover {
         width: min-content;
         position: absolute;
         top: 10%;
-        left: 170px;
+        left: 45%;
         margin: 0%;
     }
 
@@ -813,7 +813,8 @@ a.footer__telegram_link:hover {
 
     .intro2 {
         font-size: 22px;
-        margin-top: 20px;
+        margin-top: 0px;
+        margin-bottom: 20px
         width: min-content;
 
     }
