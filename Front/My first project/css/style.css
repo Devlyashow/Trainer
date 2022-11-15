@@ -697,6 +697,106 @@ a.footer__telegram_link:hover {
     }
 }
 
+@media (max-width:600px) {
+    .box {
+        position: static;
+    }
+
+    .proba {
+        display: flex;
+        position: relative;
+    }
+
+    .row {}
+
+    .social {
+        position: static;
+        display: flex;
+        position: absolute;
+        top: 320%;
+    }
+
+    .telegram {
+        margin: 0;
+        position: absolute;
+        top: 15px;
+        left: -1200%;
+    }
+
+    .instagram {
+        position: absolute;
+        left: 900%;
+    }
+
+
+    .instimg {
+        display: inline-block;
+        justify-content: end;
+        margin-right: 80px;
+    }
+
+    .tgimg {
+        display: inline-block;
+    }
+
+
+
+    .footer__div {
+        justify-content: space-around;
+        display: inline-block;
+        margin: 0;
+
+    }
+
+    .footer__div_item {
+        width: min-content;
+        display: inline-block
+    }
+
+    .footer__tel {
+        width: 80%;
+        margin-right: 0;
+    }
+
+    .footer__telegram {
+        width: 50%;
+    }
+
+
+
+    footer {
+        padding: 0%;
+        padding-top: 5px;
+        position: relative;
+    }
+
+    .footer__item {
+        width: min-content;
+        position: absolute;
+        top: 10%;
+        left: 46%;
+        margin: 0%;
+    }
+
+
+
+    .footer__div_tel {
+        padding: 0%;
+        text-align: start;
+        margin-top: 1px;
+    }
+
+
+    .footer__div_tg {
+        padding: 0%;
+        text-align: end;
+        margin-left: 40px;
+    }
+
+    .footer__contact {
+        justify-content: center
+    }
+}
 
 @media (min-width: 1900px) {
     .body {
