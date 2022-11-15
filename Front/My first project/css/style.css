@@ -796,6 +796,10 @@ a.footer__telegram_link:hover {
     .footer__contact {
         justify-content: center
     }
+    .intro2 {
+        font-size: 22px;
+        margin-top: 60px;
+    }
 }
 
 @media (min-width: 1900px) {
