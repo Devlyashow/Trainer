@@ -697,7 +697,7 @@ a.footer__telegram_link:hover {
     }
 }
 
-@media (max-width:600px) {
+    @media (max-width:600px) {
     .box {
         position: static;
     }
@@ -774,10 +774,23 @@ a.footer__telegram_link:hover {
         width: min-content;
         position: absolute;
         top: 10%;
-        left: 46%;
+        left: 170px;
         margin: 0%;
     }
 
+    .card2 {
+        width: min-content;
+    }
+
+    .varik {
+        max-width: 420px;
+    }
+
+    .variant1-click {}
+
+    .variant2-click {
+        width: 100%;
+    }
 
 
     .footer__div_tel {
@@ -790,15 +803,22 @@ a.footer__telegram_link:hover {
     .footer__div_tg {
         padding: 0%;
         text-align: end;
-        margin-left: 40px;
+        margin-left: 50px;
     }
 
     .footer__contact {
         justify-content: center
     }
+
     .intro2 {
         font-size: 22px;
-        margin-top: 60px;
+        margin-top: 20px;
+        width: min-content;
+
+    }
+
+    .container {
+        margin-top: 80px;
     }
 }
 
