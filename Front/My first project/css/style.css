@@ -8,8 +8,8 @@ body {
     /* background: rgb(8, 0, 33); */
     color: white;
     font-family: 'Roboto Slab', serif;
-    margin: auto 0% ;
-/*     min-width: 450px; */
+    margin: 0% ;
+    min-width: 450px;
   
 }
 
