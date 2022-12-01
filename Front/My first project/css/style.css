@@ -8,9 +8,8 @@ body {
     /* background: rgb(8, 0, 33); */
     color: white;
     font-family: 'Roboto Slab', serif;
-    margin: 0% ;
-    min-width: 650px;
-  
+    margin: 0%;
+
 }
 
 *,
@@ -27,6 +26,7 @@ body {
 .box {
     display: flex;
     margin-top: 20px;
+    margin: auto;
     align-items: center;
     justify-content: space-around;
     position: relative;
@@ -68,6 +68,7 @@ body {
     color: black;
     width: min-content;
     text-align: center;
+
     padding: 20px;
     padding-top: 0px;
     padding-bottom: 2px;
@@ -489,7 +490,6 @@ footer {
     width: 100%;
     height: min-content;
     background: url(../img/footer.jpeg);
-    min-width: 600px;
     padding: 10px;
 }
 
@@ -531,6 +531,8 @@ a.footer__telegram_link:hover {
 }
 
 
+
+
 @media (max-width:1000px) {
     .container {
         display: flex;
@@ -564,21 +566,16 @@ a.footer__telegram_link:hover {
     .info1 {
         order: 3;
     }
-
-
 }
 
 
 @media (max-width:1250px) {
-    
-    .slider__item_img {
-    width: 80%;
-}
 
-.slider .slick-arrow {
+
+    .slider .slick-arrow {
         width: 16px;
         height: 30px;
-    } 
+    }
 
     .box {
         display: block;
@@ -696,9 +693,30 @@ a.footer__telegram_link:hover {
     .footer__item {
         font-size: 20px;
     }
+
+
 }
 
-/*     @media (max-width:600px) {
+@media (max-width:600px) {
+    .content {
+        width: 600px;
+    }
+
+    .osnova {
+        width: 600px;
+    }
+
+    .footer__contact {
+        width: 600px;
+    }
+
+
+
+    .body {
+        margin: auto;
+
+    }
+
     .box {
         position: static;
     }
@@ -711,7 +729,6 @@ a.footer__telegram_link:hover {
     .row {}
 
     .social {
-        position: static;
         display: flex;
         position: absolute;
         top: 320%;
@@ -752,7 +769,6 @@ a.footer__telegram_link:hover {
     .footer__div_item {
         width: min-content;
         display: inline-block
-        
     }
 
     .footer__tel {
@@ -776,7 +792,7 @@ a.footer__telegram_link:hover {
         width: min-content;
         position: absolute;
         top: 10%;
-        left: 45%;
+        left: 270px;
         margin: 0%;
     }
 
@@ -808,22 +824,17 @@ a.footer__telegram_link:hover {
         margin-left: 50px;
     }
 
-    .footer__contact {
-        justify-content: center
-    }
-
     .intro2 {
         font-size: 22px;
-        margin-top: 0px;
-        margin-bottom: 20px
+        margin-top: 0;
         width: min-content;
-
     }
 
     .container {
         margin-top: 80px;
     }
-} */
+}
+
 
 @media (min-width: 1900px) {
     .body {
@@ -842,7 +853,6 @@ a.footer__telegram_link:hover {
         margin: 20px auto;
         align-items: center;
         height: 400px;
-
     }
 
     .card {
@@ -946,116 +956,118 @@ a.footer__telegram_link:hover {
     .footer__item {
         font-size: 40px;
     }
+}
 
-    @media (min-width: 2000px) {
-        .intro {
-            font-size: 60px;
-        }
+@media (min-width: 2000px) {
+    .intro {
+        font-size: 60px;
+    }
 
-        .varianti {
-            margin-top: 50px;
-            height: 400px;
-            justify-content: space-around;
-
-        }
-
-        .varik {
-            height: 100%;
-            max-width: 700px;
-        }
-
-        .footer__item {
-            font-size: 50px;
-        }
+    .varianti {
+        margin-top: 50px;
+        height: 400px;
+        justify-content: space-around;
 
     }
 
-    @media (min-width: 2600px) {
-        .slider .slick-dots button {
-            width: 20px;
-            height: 20px;
-        }
-
-        .card2 {
-            background-size: 200%;
-            font-size: 30px;
-            padding: 20px;
-            padding-bottom: 10px;
-            margin: 0%;
-        }
-
-        .card {
-            background-size: 200%;
-        }
-
-        .right {
-            margin: 0%;
-        }
-
-        .intro2 {
-            font-size: 45px;
-        }
-
-        .social {
-            margin: auto;
-            margin-left: 50px;
-            background-size: 100%;
-        }
-
-        .tgimg {
-            width: 100px;
-        }
-
-        .instimg {
-            width: 100px;
-        }
-
-        .proba {
-            align-items: center;
-        }
-
-        .left {
-            font-size: 70px;
-        }
-
-        .intro2 {
-            font-size: 40px;
-        }
-
-        .container {
-            height: 1300px;
-        }
-
-        .footer__item {
-            font-size: 60px;
-        }
-
+    .varik {
+        height: 100%;
+        max-width: 700px;
     }
 
-    @media (min-width: 3100px) {
-        .intro2 {
-            font-size: 50px;
-        }
-
-        .container {
-            height: 1500px;
-        }
-
-        .footer__item {
-            font-size: 80px;
-        }
+    .footer__item {
+        font-size: 50px;
     }
 
-    @media (min-width: 3500px) {
-        .intro2 {
-            font-size: 50px;
-        }
+}
 
-        .container {
-            height: 1700px;
-        }
-
-        .intro2 {
-            font-size: 70px;
-        }
+@media (min-width: 2600px) {
+    .slider .slick-dots button {
+        width: 20px;
+        height: 20px;
     }
+
+    .card2 {
+        background-size: 200%;
+        font-size: 30px;
+        padding: 20px;
+        padding-bottom: 10px;
+        margin: 0%;
+    }
+
+    .card {
+        background-size: 200%;
+    }
+
+    .right {
+        margin: 0%;
+    }
+
+    .intro2 {
+        font-size: 45px;
+        background-size: 200%;
+    }
+
+    .social {
+        margin: auto;
+        margin-left: 50px;
+        background-size: 100%;
+    }
+
+    .tgimg {
+        width: 100px;
+    }
+
+    .instimg {
+        width: 100px;
+    }
+
+    .proba {
+        align-items: center;
+    }
+
+    .left {
+        font-size: 70px;
+    }
+
+    .intro2 {
+        font-size: 40px;
+    }
+
+    .container {
+        height: 1300px;
+    }
+
+    .footer__item {
+        font-size: 60px;
+    }
+
+}
+
+@media (min-width: 3100px) {
+    .intro2 {
+        font-size: 50px;
+    }
+
+    .container {
+        height: 1500px;
+    }
+
+    .footer__item {
+        font-size: 80px;
+    }
+}
+
+@media (min-width: 3500px) {
+    .intro2 {
+        font-size: 50px;
+    }
+
+    .container {
+        height: 1700px;
+    }
+
+    .intro2 {
+        font-size: 70px;
+    }
+}
