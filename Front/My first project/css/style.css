@@ -9,7 +9,6 @@ body {
     color: white;
     font-family: 'Roboto Slab', serif;
     margin: 0%;
-   
 
 }
 
@@ -714,7 +713,9 @@ a.footer__telegram_link:hover {
         width: 600px;
     }
 
-
+    .card2 {
+        margin-top: 20px;
+    }
 
     .body {
         margin: auto;
@@ -728,7 +729,9 @@ a.footer__telegram_link:hover {
     .proba {
         display: flex;
         position: relative;
+        padding-top: 20px;
     }
+
 
     .row {}
 
