@@ -724,6 +724,7 @@ a.footer__telegram_link:hover {
 
     .box {
         position: static;
+        margin: auto;
     }
 
     .proba {
