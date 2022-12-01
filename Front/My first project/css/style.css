@@ -10,6 +10,7 @@ body {
     font-family: 'Roboto Slab', serif;
     margin: 0%;
     width: 100%;
+
 }
 
 *,
@@ -699,6 +700,8 @@ a.footer__telegram_link:hover {
 }
 
 @media (max-width:600px) {
+
+
     .content {
         width: 600px;
     }
@@ -715,7 +718,7 @@ a.footer__telegram_link:hover {
 
     .body {
         margin: auto;
-
+        width: 100%;
     }
 
     .box {
