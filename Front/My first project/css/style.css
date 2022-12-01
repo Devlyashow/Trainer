@@ -725,16 +725,22 @@ a.footer__telegram_link:hover {
     .box {
         position: static;
         margin: auto;
+        align-items: center;
+        justify-content: center;
+
     }
 
     .proba {
         display: flex;
         position: relative;
         padding-top: 20px;
+        margin: auto;
     }
 
 
-    .row {}
+    .row {
+        margin: auto; 
+    }
 
     .social {
         display: flex;
