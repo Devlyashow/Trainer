@@ -702,15 +702,39 @@ a.footer__telegram_link:hover {
 
 
     .content {
-        width: 600px;
+        width: 100%;
     }
 
     .osnova {
-        width: 600px;
+        width: 100%;
     }
 
     .footer__contact {
-        width: 600px;
+        width: 100%;
+    }
+    
+    .shapka {
+    margin: auto;
+    }
+    
+    .intro {
+    margin: auto;
+    }
+    
+    .varianti {
+    margin: auto;
+    }
+    
+    .container {
+    margin: auto;
+    }
+    
+    .slider {
+    margin: auto;
+    }
+    
+    .footer__contact {
+    margin: auto;
     }
 
     .card2 {
